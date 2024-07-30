@@ -1,0 +1,8 @@
+
+<ul>
+  <li *ngFor="let personaje of personajes;">
+    <span>{{personaje.name}} - </span>
+    <strong>Chakra: {{personaje.chakra}} - </strong>
+    <button class="btn btn-danger" (click)="eliminarPersonajeListado(personaje.id!)">Eliminar</button>
+  </li>
+</ul>

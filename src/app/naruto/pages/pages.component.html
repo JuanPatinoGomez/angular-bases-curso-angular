@@ -1,0 +1,11 @@
+
+
+<div class="row">
+
+  <div class="col">
+    <app-naruto-list [personajes]="listadoPersonajes" (deletePersonajeEmmitter)="eliminarPersonaje($event)"></app-naruto-list>
+  </div>
+  <div class="col">
+    <app-naruto-add-personaje (personajeEmitter)="agregarNuevoPersonaje($event)"></app-naruto-add-personaje>
+  </div>
+</div>

@@ -1,0 +1,15 @@
+<form (ngSubmit)="agregarPersonaje()">
+  <input
+    type="text"
+    [(ngModel)]="personaje.name"
+    name="name"
+    placeholder="Nombre personaje">
+
+  <input
+    type="text"
+    [(ngModel)]="personaje.chakra"
+    name="chakra"
+    placeholder="Cantidad chakra">
+
+  <button type="submit">agregar</button>
+</form>
